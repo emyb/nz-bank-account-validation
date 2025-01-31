@@ -56,6 +56,9 @@ class BankAccountValidator
             33 =>   ['algorithm' => 'F',  'branches' => [[6700, 6799]]],
             35 =>   ['algorithm' => 'AB', 'branches' => [[2400, 2499]]],
             38 =>   ['algorithm' => 'AB', 'branches' => [[9000, 9499]]],
+            // Algorithm data from this new pdf below and branch data from https://www.paymentsnz.co.nz/resources/industry-registers/bank-branch-register/?bank_number=88
+            // https://www.ird.govt.nz/-/media/project/ir/home/documents/digital-service-providers/software-providers/payroll-calculations-business-rules-specifications/payroll-calculations-and-business-rules-specification-2024-v1-1.pdf
+            88 =>   ['algorithm' => 'AB', 'branches' => [[8800, 8803], [8805]]],
         ];
     }
 
